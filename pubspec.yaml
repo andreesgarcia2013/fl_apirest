@@ -62,6 +62,64 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
   - assets/
+  - assets/images/Move_Images/Akuma/
+  - assets/images/Move_Images/Amingo/
+  - assets/images/Move_Images/Anakaris/
+  - assets/images/Move_Images/Baby Bonnie Hood/
+  - assets/images/Move_Images/Blackheart/
+  - assets/images/Move_Images/Cable/
+  - assets/images/Move_Images/Cammy/
+  - assets/images/Move_Images/Captain America/
+  - assets/images/Move_Images/Captain Commando/
+  - assets/images/Move_Images/Charlie/
+  - assets/images/Move_Images/Chun-Li/
+  - assets/images/Move_Images/Colossus/
+  - assets/images/Move_Images/Cyclops/
+  - assets/images/Move_Images/Dan/
+  - assets/images/Move_Images/Dhalsim/
+  - assets/images/Move_Images/Doctor Doom/
+  - assets/images/Move_Images/Felicia/
+  - assets/images/Move_Images/Gambit/
+  - assets/images/Move_Images/Guile/
+  - assets/images/Move_Images/Hayato/
+  - assets/images/Move_Images/Hulk/
+  - assets/images/Move_Images/Ice Man/
+  - assets/images/Move_Images/Iron Man/
+  - assets/images/Move_Images/Jill/
+  - assets/images/Move_Images/Jin/
+  - assets/images/Move_Images/Juggernaut/
+  - assets/images/Move_Images/Ken/
+  - assets/images/Move_Images/Magneto/
+  - assets/images/Move_Images/Marrow/
+  - assets/images/Move_Images/Mega Man/
+  - assets/images/Move_Images/Morrigan/
+  - assets/images/Move_Images/Omega Red/
+  - assets/images/Move_Images/Psylocke/
+  - assets/images/Move_Images/Rogue/
+  - assets/images/Move_Images/Roll/
+  - assets/images/Move_Images/Ruby Heart/
+  - assets/images/Move_Images/Ryu/
+  - assets/images/Move_Images/Sabretooth/
+  - assets/images/Move_Images/Sakura/
+  - assets/images/Move_Images/Sakura (Dark)/
+  - assets/images/Move_Images/Sentinel/
+  - assets/images/Move_Images/Servbot/
+  - assets/images/Move_Images/Shuma-Gorath/
+  - assets/images/Move_Images/Silver Samurai/
+  - assets/images/Move_Images/SonSon/
+  - assets/images/Move_Images/Spider-Man/
+  - assets/images/Move_Images/Spiral/
+  - assets/images/Move_Images/Storm/
+  - assets/images/Move_Images/Strider/
+  - assets/images/Move_Images/Thanos/
+  - assets/images/Move_Images/Tron Bonne/
+  - assets/images/Move_Images/Vega/
+  - assets/images/Move_Images/Venom/
+  - assets/images/Move_Images/War Machine/
+  - assets/images/Move_Images/Wolverine/
+  - assets/images/Move_Images/Wolverine, Bone/
+  - assets/images/Move_Images/Zangief/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

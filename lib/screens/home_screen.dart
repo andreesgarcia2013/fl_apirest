@@ -29,24 +29,34 @@ class _HomeScreenState extends State<HomeScreen> {
           child:  Text('Marvel vs Capcom 2')
         ),
       ),
-      body: FutureBuilder(
-        future: apiMVC!.getAllPersonajes(),
-        builder: (BuildContext context,
-         AsyncSnapshot <List<PersonajesModel>?>snapshot) {
-          if (snapshot.hasError) {
-            return const Center(
-              child: Text('Ocurrio un error en la solicitud'),
-            );
-          } else {
-            if (snapshot.connectionState==ConnectionState.done) {
-              return _listPersonajes(snapshot.data);
-            } else {
+      body: Container(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Colors.red, Colors.orange],
+            begin: Alignment.centerLeft,
+            end: Alignment.centerRight,
+            stops: [0.5, 0.9],
+          ),
+        ),
+        child: FutureBuilder(
+          future: apiMVC!.getAllPersonajes(),
+          builder: (BuildContext context,
+           AsyncSnapshot <List<PersonajesModel>?>snapshot) {
+            if (snapshot.hasError) {
               return const Center(
-                child: CircularProgressIndicator(),
+                child: Text('Ocurrio un error en la solicitud'),
               );
+            } else {
+              if (snapshot.connectionState==ConnectionState.done) {
+                return _listPersonajes(snapshot.data);
+              } else {
+                return const Center(
+                  child: CircularProgressIndicator(),
+                );
+              }
             }
-          }
-        },
+          },
+        ),
       ),
     );
   }
